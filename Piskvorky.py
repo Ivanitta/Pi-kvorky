@@ -54,7 +54,7 @@ def tah_pocitace(pole, symbol):
         try:
             pozice=randrange(20)
             pole=tah(pole, pozice, symbol)
-            print(pozice)
+            print("Počítač zadává pozici: ", pozice)
             break
         except Warning as message:
             print(message)  
